@@ -1,0 +1,136 @@
+\documentclass[10pt,a4paper,openright]{report}
+\usepackage[utf8]{inputenc}
+\author{ABELARD Jérémy}
+\usepackage[T1]{fontenc}
+\usepackage[a4paper,left=2.5cm,right=2.5cm,top=2cm,bottom=2cm]{geometry}
+\usepackage[french]{babel}
+\AddThinSpaceBeforeFootnotes
+\FrenchFootnotes
+\usepackage{xspace}
+%\usepackage{microtype} %éviter au max les césures
+\usepackage{hyperref}
+\usepackage{mathptmx}
+\usepackage[pdftex]{graphicx}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{makeidx}
+\usepackage{fancyhdr}
+\usepackage{caption}
+\usepackage{float}
+\usepackage{subcaption}
+\usepackage{array}
+\usepackage{setspace}
+\usepackage{xcolor}
+\usepackage{colortbl}%Coloration tableau
+\usepackage[bottom,flushmargin,hang,multiple]{footmisc}
+%\usepackage{nomencl}
+%\makenomenclature
+\setlength{\parindent}{1cm}
+\setlength{\parskip}{1ex plus 0.5ex minus 0.2ex}
+\newcommand{\hsp}{\hspace{20pt}}
+\newcommand{\HRule}{\rule{\linewidth}{1.5mm}}
+\pagestyle{fancy}
+\lhead{}%haut de page gauche
+\chead{}%haut de page centre
+\rhead{}%haut de page droite
+\lfoot{}%pied de page gauche
+\cfoot{\thepage}%pied de page centré
+\rfoot{}%pied de page droit
+\renewcommand{\headrulewidth}{1pt}
+\renewcommand{\footrulewidth}{1pt}
+\onehalfspacing %Interlignes 1.5cm
+\renewcommand{\thesection}{\arabic{section}} 
+
+\begin{document}
+ \begin{titlepage}
+  \begin{figure}
+   \begin{center}
+     \includegraphics[scale=0.1]{UR}
+     \hspace{1.8cm}
+     \includegraphics[scale=0.8]{logoFST}
+  
+   \end{center}
+   \begin{center}
+   %{ \huge \textit{\bfseries Mini-projet : \\[0.4cm] }}
+   
+%arrangement de la page de garde 
+    \title{\vspace{5cm} %emplacement du titre principal
+    
+%tout ce qui vont autour
+   
+  
+    \textrm{\Large Nom de l'UE}\\[2cm]
+    {\hrule {\vspace{1cm}
+     \textbf{Le titre centré verticalement}}
+    \\[1cm]
+    \hrule {\vspace{0.4cm}}}
+    
+     {\slshape Encadrant :}\\[2cm]
+     \includegraphics[scale=0.1]{le2p_fondtrans}
+     {\vspace{3cm}}   }%{une image en relation avec le rapport}
+    
+    
+    %{\vspace{3cm}\textit{Par :}\\ ABELARD Jérémy} % peut être remplacer par l'auteur
+    %vspace{3cm}\\
+   	%Année universitaire : 2019 - 2020
+   	%}}
+   
+ \maketitle %date généré
+  		
+   \end{center}
+ 
+  \end{figure}
+     
+ \end{titlepage}
+
+\chapter*{Remerciement}
+\begin{center}
+je remercie
+\end{center}
+	\renewcommand{\contentsname}{Sommaire}
+	\tableofcontents
+	\newpage
+\section*{Introduction}
+	\addcontentsline{toc}{section}{Introduction}
+\newpage
+\section{Données, modèle et méthodologie}
+\subsection{sous-section}
+%\smallskip %intervale de ligne autre medskip et bigskip
+
+%\begin{itemize}
+%\item
+%\end{itemize}
+
+%\begin{enumerate}
+%\item
+%\end{enumerate}
+
+%\begin{description}
+%\item[textgras] signification
+%\end{description}
+
+
+\newpage
+\section{Résultats}
+\subsection{sous-section}
+\newpage
+\section{Discussion}
+\subsection{sous-section}
+\newpage
+	%encadrer un texte
+	%\fbox{\begin{minipage}{0.9\textwidth}
+   %\textbf{Question 1:} 
+	%\end{minipage}}
+	%\newpage
+	\section*{Conclusion et perspective}
+	\addcontentsline{toc}{section}{Conclusion et perspective}
+	\newpage
+	
+\listoffigures
+	
+\appendix
+\chapter{A}
+\chapter{B}
+\end{document}
+

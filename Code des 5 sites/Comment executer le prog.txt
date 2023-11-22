@@ -1,0 +1,5 @@
+Ouvrir 1 des 5 dossiers.
+Exécuter le programme avec un IDE python : PyCharm, Jupyter, Spyder...
+Les données sont dans les fichiers Exel qui se trouve dans le même dossier ouvert,
+Il suffit seulement de lancer le programme.
+Les étapes de la programmation sont indiqués dans le codage indiqué par le caractère commentaire de python.

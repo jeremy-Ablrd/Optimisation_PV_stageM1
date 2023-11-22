@@ -14,3 +14,6 @@ protocole expérimentale. Ce qui permettra de calculer le facteur de transpositi
 
 La lecture d'une base de données solaire requiert forcément l’utilisation d’un logiciel de
 programmation (ici Python) pour faciliter le traitement, l'analyse et le calcule de ces données.
+
+## Comment lire le rapport du stage
+Pour lire le rapport du projet il suffit de vous diriger dans le répertoire **rapport_final > rapport_stage_2020.pdf**.
